@@ -1,0 +1,154 @@
+/* Roscoe and Jane Biz Site, Week Five Lecture 2 Homework, Stylesheet */
+html {
+	text-align: center;
+	margin: 0;
+    background: url('../images/3-cupcakes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% -6%;
+	font-family: Arial, sans-serif;
+	/*background-color: rgba(9,130,110,1); /* dark green */
+}
+
+.landing-page {
+	/*text-align: center;
+	margin: 0;
+    background: url('../images/3-cupcakes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% -6%;*/
+    top: 0;
+    text-align: center;
+	font-family: Poiret One, cursive;
+	font-size: 4.37em;
+	color: rgba(157,198,216,1); /* blue */
+}
+
+.landing-nav {
+	font-size: 50px;
+}
+
+.landing-nav li {
+	display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+.nav {
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	margin-bottom: 20px;
+	top: 30px;
+	left: 0;
+	z-index: 9999;
+}
+
+.nav ul {
+	top: 0;
+	margin: 0;
+	padding: 15px;
+    background: rgba(198,203,204,1); /* light gray */
+    text-align: center;
+}
+
+.nav li {
+	display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+.nav a {
+	
+	color: rgba(255,255,255,1); /* white */
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: rgba(136,134,136,1); /* dark gray */
+}
+
+.active a {
+	color: rgba(253,238,170,1); /* yellow */
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	margin-bottom: 40px;
+	top: 0;
+	left: 0;
+	/*background: rgba(157,198,216,1); /* blue */
+}
+
+.main-content {
+	margin: 0 auto;
+	width: 900px;
+	min-width: 400px;
+	background: rgba(253,238,170,1); /* yellow */
+	border-style: solid;
+	border-color: rgba(253,238,170,1); /* yellow */
+	z-index: 9000;
+}
+
+.left-column {
+	float: left;
+	margin: 30px 20px 30px 20px;
+	padding: 20px;
+	width: 40%;
+	background: rgba(255,255,255,1); /* white */
+	border-style: solid;
+	border-color: rgba(255,255,255,1); /* white */
+	color: rgba(198,203,204,1); /* light gray */
+}
+
+.left-column h1 {
+	color: rgba(157,198,216,1); /* blue */
+}
+
+.right-column {
+	float: left;
+	margin: 30px 20px 30px 20px;
+	padding: 20px;
+	width: 40%;
+	background: rgba(255,255,255,1); /* white */
+	border-style: solid;
+	border-color: rgba(255,255,255,1); /* white */
+	color: rgba(198,203,204,1); /* light gray */
+}
+
+.right-column h1 {
+	color: rgba(157,198,216,1); /* blue */
+}
+
+.footer {
+	clear: both;
+	display: inline-block;
+	text-align: center;
+	width: 80%;
+	height: 10%;
+	margin-bottom: 20px;
+	left: 0;
+	background: rgba(136,134,136,1); /* dark gray */
+	border-style: solid;
+	border-color: rgba(136,134,136,1); /* dark gray */
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	color: rgba(255,255,255,1); /* white */
+}
+
+.social-icons {
+	list-style-type: none;
+	padding: 10px;
+}
+
+.social-icons li {
+	display:inline;
+}
+
+.icon {
+	width: 4%;
+}
+
+@media (max-width: 767px) {
+	
+}
