@@ -293,8 +293,6 @@ border-radius: 10px;
 	width: 4%;
 }
 
-<<<<<<< HEAD
-
 @media (max-width: 940px) {
 	.galleryItem{width: 21%}
 }
@@ -321,7 +319,6 @@ border-radius: 10px;
 	}
 }
 
-=======
 .name {
 	text-align: left;
 }
@@ -383,4 +380,3 @@ border-radius: 10px;
 		width: 5%;
 	}
 }
->>>>>>> 9a93d7f73ecabe636f7d2e04c352ebf0d9c81223
