@@ -4,12 +4,13 @@ html {
 }
 
 html.landing-page {
-	text-align: center;
 	margin: 0;
     background: url('../images/3-cupcakes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% -6%;
+    background-position: center; /*0% -6%;*/
+    /*background-attachment: fixed*/;
+    /*top: 25%;*/
 }
 
 body {
@@ -20,17 +21,71 @@ body {
     top: 0;
     text-align: center;
 	font-family: Poiret One, cursive;
-	font-size: 4.37em;
+}
+
+/*.name-container {
+	width: 84%;
+	margin:0 auto;
+	max-width:1140px;
+}*/
+
+.landing-page h1 {
+	text-align: center;
+	/*display: block;*/
+	/*font-size: 4.37em;*/
 	color: rgba(157,198,216,1); /* blue */
+	margin: 3% auto 3%;
+}
+
+.landing-header {
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	/*margin-bottom: 40px;*/
+	top: 0;
+	left: 0;
 }
 
 .landing-nav {
-	font-size: 50px;
+	/*position: relative;*/
+	/*font-size: 1em;*/
+	/*margin-top: 45%;*/
+	/*margin-left: 8px;*/
+	display: block;
+    /*width: 65%;*/
+    margin: 45% auto 3%;
+    padding: 0px 0px 0px 0px;
+}
+
+.landing-nav ul {
+	/*top: 0;
+	margin: 0;
+	padding: 15px;
+    background: rgba(198,203,204,1); /* light gray */
+    /*left: -5%;*/
 }
 
 .landing-nav li {
 	display: inline;
     padding: 5px 10px 5px 10px;
+}
+
+.pink a {
+	color: rgba(227,134,143,1); /* pink */
+	text-decoration: none;
+}
+
+.blue a {
+	color: rgba(157,198,216,1); /* blue */
+	text-decoration: none;
+}
+
+.landing-nav a:hover {
+	color: rgba(136,134,136,1); /* dark gray */
+}
+
+.active.landing-nav a {
+	color: rgba(253,238,170,1); /* yellow */
 }
 
 .nav {
