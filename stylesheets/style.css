@@ -208,6 +208,60 @@ body {
     height: 20em;
 }
 
+/*Page 2*/
+
+
+.galleryContainer {
+width: 80%;
+margin: 30px auto;
+overflow: hiden;
+background-color: red:;
+}
+
+
+.galleryContainer h1{
+  display: block;
+  font: 50px/1.0 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 15px 2%;
+}
+
+.galleryContainer p {
+color: #797478;
+display: block;
+margin: 0 0 15px 2%;
+
+
+}
+
+.galleryItem {
+  color: #797478;
+  font: 10px/1.5 Verdana, Helvetica, sans-serif;
+  float: left;
+  width: 16%;
+  margin: 2% 2% 50px 2%;
+}
+
+.galleryItem h3:hover {
+	border-radius: 7px;
+	background-color: orange;
+}
+
+.galleryItem h3 {text-transform: uppercase;}
+
+.galleryItem img {
+max-width: 100%;
+border-radius: 10px;
+}
+
+
+
+/*Page 2*/
+
+
+
+
 .footer {
 	clear: both;
 	display: inline-block;
@@ -239,6 +293,35 @@ body {
 	width: 4%;
 }
 
+<<<<<<< HEAD
+
+@media (max-width: 940px) {
+	.galleryItem{width: 21%}
+}
+
+@media (max-width: 720px) {
+	.galleryItem {width: 30%;}
+}
+
+@media (max-width: 530px) {
+	.galleryItem {width: 46%;}
+}
+
+@media (max-width: 320px) {
+	.galleryItem {
+		width: 96%;
+	}
+	.galleryItem img {
+		width: 96%
+	}
+	.galleryItem h3 {
+		font-size: 18px;
+	}
+	.galleryItem p {font-size: 18px;
+	}
+}
+
+=======
 .name {
 	text-align: left;
 }
@@ -300,3 +383,4 @@ body {
 		width: 5%;
 	}
 }
+>>>>>>> 9a93d7f73ecabe636f7d2e04c352ebf0d9c81223
