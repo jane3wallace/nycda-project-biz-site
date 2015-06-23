@@ -204,8 +204,8 @@ body {
 }
 
 #map-canvas {
-    width: 400px;
-    height: 320px;
+    width: 23em;
+    height: 20em;
 }
 
 .footer {
@@ -260,6 +260,43 @@ body {
 	color: rgba(136,134,136,1); /* dark gray */
 }
 
+@media (max-width: 991px) {
+	.left-column {
+		width: 48%;
+		left: 3%;
+	}
+
+	.right-column {
+		width: 35%;
+		left: 3%;
+	}
+
+	#map-canvas {
+		width: 22em;
+		height: 19em;
+	}
+}
+
 @media (max-width: 767px) {
-	
+	.left-column {
+		width: 85%;
+		left: 3%;
+		margin: 40px 20px 0px 20px;
+	}
+
+	.right-column {
+		width: 100%;
+		left: 3%;
+		margin: 0px 20px 30px 20px;
+		padding: 0px 0px 0px 0px;
+	}
+
+	#map-canvas {
+		width: 20em;
+		height: 18em;
+	}
+
+	.icon {
+		width: 5%;
+	}
 }
