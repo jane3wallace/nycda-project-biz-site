@@ -209,17 +209,27 @@ body {
 }
 
 /*Page 2*/
+.galleryHeading {
+width: 80%;
+margin-top:100px;
+margin-right:auto; 
+margin-left: auto;
+overflow: hidden;
+text-align: center;
 
+}
 
 .galleryContainer {
 width: 80%;
-margin: 30px auto;
-overflow: hiden;
-background-color: red:;
+margin-top:30px;
+margin-right:auto; 
+margin-left: auto;
+overflow: hidden;
+text-align: center;
 }
 
 
-.galleryContainer h1{
+.galleryHeading h1{
   display: block;
   font: 50px/1.0 'Yanone Kaffeesatz', sans-serif;
   font-weight: 400;
@@ -227,35 +237,31 @@ background-color: red:;
   margin: 0 0 15px 2%;
 }
 
-.galleryContainer p {
+.galleryHeading p {
 color: #797478;
 display: block;
-margin: 0 0 15px 2%;
+margin: 15px 0 15px 2%;
 
 
 }
 
 .galleryItem {
+  display: inline-block;
   color: #797478;
   font: 10px/1.5 Verdana, Helvetica, sans-serif;
-  float: left;
   width: 16%;
   margin: 2% 2% 50px 2%;
 }
 
-.galleryItem h3:hover {
-	border-radius: 7px;
-	background-color: orange;
+.galleryItem h3 {
+text-transform: uppercase;
+min-height: 36px;
 }
-
-.galleryItem h3 {text-transform: uppercase;}
 
 .galleryItem img {
 max-width: 100%;
 border-radius: 10px;
 }
-
-
 
 /*Page 2*/
 
@@ -319,6 +325,7 @@ border-radius: 10px;
 	}
 }
 
+
 .name {
 	text-align: left;
 }
@@ -380,3 +387,4 @@ border-radius: 10px;
 		width: 5%;
 	}
 }
+
