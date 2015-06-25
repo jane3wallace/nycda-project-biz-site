@@ -208,7 +208,7 @@ body {
     height: 20em;
 }
 
-/*Page 2*/
+/*Page 2 TOP*/
 .galleryHeading {
 width: 80%;
 margin-top:100px;
@@ -231,7 +231,9 @@ text-align: center;
 
 .galleryHeading h1{
   display: block;
-  font: 50px/1.0 'Yanone Kaffeesatz', sans-serif;
+  /*font: 50px/1.0 'Yanone Kaffeesatz', sans-serif;*/
+  font-family: Poiret One, cursive;
+  color: rgba(157,198,216,1); /* blue */
   font-weight: 400;
   text-transform: uppercase;
   margin: 0 0 15px 2%;
@@ -241,8 +243,6 @@ text-align: center;
 color: #797478;
 display: block;
 margin: 15px 0 15px 2%;
-
-
 }
 
 .galleryItem {
@@ -252,6 +252,8 @@ margin: 15px 0 15px 2%;
   width: 16%;
   margin: 2% 2% 50px 2%;
 }
+
+
 
 .galleryItem h3 {
 text-transform: uppercase;
@@ -263,7 +265,8 @@ max-width: 100%;
 border-radius: 10px;
 }
 
-/*Page 2*/
+
+/*Page 2 END */
 
 
 
