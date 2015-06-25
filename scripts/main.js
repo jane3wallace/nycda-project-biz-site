@@ -18,7 +18,7 @@ $(document).ready(function() {
     $(responsiveName).fitText();
 
     var responsiveNav = document.getElementById("responsive-nav");
-    $(responsiveNav).fitText(1.5); //0.8, {minFontSize: "40px", maxFontSize: "80px"}
+    $(responsiveNav).fitText(1.5, {minFontSize: "32px", maxFontSize: "80px"});
 
 
     // OTHER POSSIBLE TEXT RESIZE CODE

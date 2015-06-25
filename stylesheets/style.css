@@ -10,7 +10,7 @@ html.landing-page {
     background-repeat: no-repeat;
     background-position: center; /*0% -6%;*/
     /*background-attachment: fixed;*/
-    top: 7%;
+    top: 0%;
 }
 
 body {
@@ -53,14 +53,15 @@ body {
 	/*margin-left: 8px;*/
 	display: block;
     /*width: 65%;*/
-    margin: 46% auto 18%;
+    margin: 45% auto 3%; /*46% auto 18%;*/
     padding: 0px 0px 0px 0px;
 }
 
 .landing-nav ul {
 	/*top: 0;*/
-	margin: 0px 0px -110px -62px;
-	/*padding: 0px 0px -300px 0px;*/
+	margin: 0px 0px -308px -20px;
+	padding: 57px 0px 300px 0px;
+	text-decoration: 
     /*background: rgba(198,203,204,1); /* light gray 
     /*left: -5%;*/
 }
@@ -265,9 +266,6 @@ border-radius: 10px;
 
 /*Page 2*/
 
-
-
-
 .footer {
 	clear: both;
 	display: inline-block;
@@ -325,7 +323,6 @@ border-radius: 10px;
 	}
 }
 
-
 .name {
 	text-align: left;
 }
@@ -368,13 +365,14 @@ border-radius: 10px;
 	.left-column {
 		width: 85%;
 		left: 3%;
-		margin: 40px 20px 0px 20px;
+		margin: 60px 20px 0px 20px;
+		padding: 20px 0px 0px 0px;
 	}
 
 	.right-column {
 		width: 100%;
 		left: 3%;
-		margin: 0px 20px 30px 20px;
+		margin: -20px 20px 30px 20px;
 		padding: 0px 0px 0px 0px;
 	}
 
@@ -388,3 +386,8 @@ border-radius: 10px;
 	}
 }
 
+@media (max-width: 480px) {
+	.landing-nav ul {
+		margin: 0px 0px -308px -12px;
+	}
+}
