@@ -1,4 +1,4 @@
-/* Roscoe and Jane Biz Site, Week Five Lecture 2 Homework, Stylesheet */
+/* Biz Site, Week Five Lecture 2 Homework, Stylesheet */
 html {
 	font-family: Arial, sans-serif;
 }
@@ -96,7 +96,7 @@ body {
 	margin-bottom: 20px;
 	top: 30px;
 	left: 0;
-	z-index: 9999;
+	z-index: 999;
 }
 
 .nav ul {
@@ -302,32 +302,6 @@ border-radius: 10px;
 	width: 4%;
 }
 
-@media (max-width: 940px) {
-	.galleryItem{width: 21%}
-}
-
-@media (max-width: 720px) {
-	.galleryItem {width: 30%;}
-}
-
-@media (max-width: 530px) {
-	.galleryItem {width: 46%;}
-}
-
-@media (max-width: 320px) {
-	.galleryItem {
-		width: 96%;
-	}
-	.galleryItem img {
-		width: 96%
-	}
-	.galleryItem h3 {
-		font-size: 18px;
-	}
-	.galleryItem p {font-size: 18px;
-	}
-}
-
 .name {
 	text-align: left;
 }
@@ -349,6 +323,12 @@ border-radius: 10px;
 	color: rgba(136,134,136,1); /* dark gray */
 }
 
+@media (min-width: 992px) {
+	.galleryItem {
+		width: 32%;
+	}
+}
+
 @media (max-width: 991px) {
 	.left-column {
 		width: 48%;
@@ -363,6 +343,10 @@ border-radius: 10px;
 	#map-canvas {
 		width: 22em;
 		height: 19em;
+	}
+
+	.galleryItem {
+		width: 33%;
 	}
 }
 
@@ -389,10 +373,30 @@ border-radius: 10px;
 	.icon {
 		width: 5%;
 	}
+
+	.galleryItem {
+		width: 46%;
+	}
 }
 
 @media (max-width: 480px) {
 	.landing-nav ul {
 		margin: 0px 0px -308px -12px;
+	}
+
+	.galleryItem {
+		width: 76%;
+	}
+
+	.galleryItem img {
+		width: 76%
+	}
+
+	.galleryItem h3 {
+		font-size: 12px;
+	}
+
+	.galleryItem p {
+		font-size: 12px;
 	}
 }

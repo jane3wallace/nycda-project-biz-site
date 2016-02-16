@@ -1,4 +1,4 @@
-// Roscoe and Jane Biz Site, Week Five Lecture 2 Homework, jQuery
+// Biz Site, Week Five Lecture 2 Homework, jQuery
 $(document).ready(function() {
 	
   // Google Map
@@ -21,27 +21,12 @@ $(document).ready(function() {
     $(responsiveNav).fitText(1.5, {minFontSize: "32px", maxFontSize: "80px"});
 
 
-    // OTHER POSSIBLE TEXT RESIZE CODE
-    // var $body = $('body'); //Cache this for performance
+    // Magnific Popup
+    // $('.galleryItem').magnificPopup({type:'image'});
+    $('.galleryContainer').magnificPopup({
+      delegate: 'a', // child items selector, by clicking on it popup will open
+      type: 'image',
+      gallery:{enabled:true}
+    });
 
-    // var setBodyScale = function() {
-    //     var scaleSource = $body.width(),
-    //         scaleFactor = 0.35,                     
-    //         maxScale = 600,
-    //         minScale = 30; //Tweak these values to taste
-
-    //     var fontSize = scaleSource * scaleFactor; //Multiply the width of the body by the scaling factor:
-
-    //     if (fontSize > maxScale) fontSize = maxScale;
-    //     if (fontSize < minScale) fontSize = minScale; //Enforce the minimum and maximums
-
-    //     $('body').css('font-size', fontSize + '%');
-    // }
-
-    // $(window).resize(function(){
-    //     setBodyScale();
-    // });
-
-    // //Fire it when the page first loads:
-    // setBodyScale();
 });
