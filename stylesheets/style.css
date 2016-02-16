@@ -216,7 +216,7 @@ margin-top:100px;
 margin-right:auto; 
 margin-left: auto;
 overflow: hidden;
-text-align: center;
+text-align: left;
 
 }
 
@@ -236,19 +236,21 @@ text-align: center;
   font-family: Poiret One, cursive;
   color: rgba(157,198,216,1); /* blue */
   font-weight: 400;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin: 0 0 15px 2%;
 }
 
 .galleryHeading p {
-color: #797478;
+/*color: #797478;*/
+color: rgba(198,203,204,1); /* light gray */
 display: block;
 margin: 15px 0 15px 2%;
 }
 
 .galleryItem {
   display: inline-block;
-  color: #797478;
+  /*color: #797478;*/
+  color: rgba(198,203,204,1); /* light gray */
   font: 10px/1.5 Verdana, Helvetica, sans-serif;
   width: 16%;
   margin: 2% 2% 50px 2%;
